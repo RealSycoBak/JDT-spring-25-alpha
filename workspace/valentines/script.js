@@ -36,6 +36,7 @@ function updateYes() {
     yesButton.textContent = 'Yay!!!!!!!!!!!!!!!!!'
     noButton.style.display = 'none'
     yesButton.style.transform = `scale(1.6)`;
+    yesButton.classList.add('shake');
 }
 
 yesButton.addEventListener("click", updateYes);
